@@ -1,6 +1,6 @@
 function threeSum(arr, target) {
 // write your code here
-	let initialDiff = Infinity, ans = -1;
+	let initialDiff = Number.MAX_VALUE, ans = -1;
 	let n = arr.length;
 	for(let i=0; i<n-2; i++){
 		for(let j=i+1; j<n-1; j++){
